@@ -8,3 +8,15 @@ custom_dataset_f
 custom_dataset3
 custom_dataset2
 runs
+.venv
+ftvsd6.pt
+visdrone_pretrain.pt
+task.pdf
+paper_ref.pdf
+*.zip
+zero_shot_examples
+reid_data
+raw_ds_results
+original_yolo_format
+no_track_dataset
+deepsort_results
