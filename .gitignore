@@ -23,3 +23,5 @@ raw_ds_results
 original_yolo_format
 no_track_dataset
 deepsort_results
+yolo_ft_visdrone_6/weights
+yolo_val_visdrone_6/weights
