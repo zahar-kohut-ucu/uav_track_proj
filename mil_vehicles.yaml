@@ -1,0 +1,5 @@
+path: /home/zkohu/Desktop/CV2025/uav_track_proj/combined_dataset_4
+train: images/train
+val: images/valid
+names: ["vehicle"]
+nc: 1
