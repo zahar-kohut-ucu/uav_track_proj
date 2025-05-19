@@ -25,3 +25,4 @@ no_track_dataset
 deepsort_results
 yolo_ft_visdrone_6/weights
 yolo_val_visdrone_6/weights
+yolo_val_visdrone_6/labels
