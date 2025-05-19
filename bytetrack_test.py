@@ -145,7 +145,7 @@ all_summaries = []
 
 for seq in all_seq_dirs:
     result_file, gt_file = run_tracking(seq)
-    print(f"\n🔍 Evaluating {seq.name}...")
+    print(f"\nEvaluating {seq.name}...")
     summary = evaluate_mot(gt_file, result_file, seq.name)
     print(summary.to_string(float_format="%.3f"))
     all_summaries.append(summary)
@@ -153,4 +153,4 @@ for seq in all_seq_dirs:
 # Optional: save full evaluation to CSV
 final_summary = pd.concat(all_summaries)
 final_summary.to_csv("tracking_summary.csv")
-print("\n✅ Saved full evaluation summary to tracking_summary.csv")
+print("\nSaved full evaluation summary to tracking_summary.csv")

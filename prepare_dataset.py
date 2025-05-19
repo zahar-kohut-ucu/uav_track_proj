@@ -169,4 +169,4 @@ for dset in [data2_dir, data3_dir, data4_dir]:
         outer_counter = process_yolo_dataset(dset, split, combined_dir, avg_box_area)
         print(f"{outer_counter} images from {dset}")
 
-print("✅ Combined dataset ready at: combined_dataset/")
+print("Combined dataset ready at: combined_dataset/")

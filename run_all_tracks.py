@@ -22,7 +22,7 @@ for seq in tqdm(sequences, desc="Tracking sequences"):
     seq_path = str(seq.resolve())
     seq_name = seq.parent.name  # e.g., 101_1_1135531
 
-    print(f"\n🎯 Running DeepOCSORT on: {seq_name}")
+    print(f"\nRunning DeepOCSORT on: {seq_name}")
 
     cmd = f"""
     python tracking/track.py \

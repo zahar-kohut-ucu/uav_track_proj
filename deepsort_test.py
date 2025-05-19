@@ -113,5 +113,5 @@ def run_tracking(sequence_path):
 for seq in sorted(Path(SEQUENCE_ROOT).iterdir()):
     if not (seq / 'img1').exists():
         continue
-    print(f"\n🚀 Tracking {seq.name}...")
+    print(f"\nTracking {seq.name}...")
     run_tracking(str(seq))
