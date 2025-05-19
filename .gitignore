@@ -9,6 +9,7 @@ custom_dataset3
 custom_dataset2
 runs
 .venv
+bytetrack_results
 ftvsd6.pt
 visdrone_pretrain.pt
 task.pdf
